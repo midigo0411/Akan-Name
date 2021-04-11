@@ -4,14 +4,7 @@ body{
 }
 
 .jumbotron{
-    margin-top: 100px;
-    margin-bottom: 0;
-    height: 670px;
-    padding: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: #626f92;
-    box-shadow: 1px 0px 2px #ffffff;
+    margin-top: 80px; 
   }
 
   .labels{
