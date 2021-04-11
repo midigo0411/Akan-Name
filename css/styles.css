@@ -36,3 +36,13 @@ body{
 
   .genders{
     margin-left: 50px;
+  }
+
+  .btn{
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 45px;
+    width: 200px;
+    border-radius: 20px;
+  }
+  }
