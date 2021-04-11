@@ -36,3 +36,11 @@ function getInput(){
       return dayOfWeek;
     }
 }
+
+// a function that calls other functions
+
+function checkDayOfWeek(){
+    day = calculateDay();
+     checkGender();
+     console.log("The function runs");//Test chackDayOfWeek function
+}
