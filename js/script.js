@@ -21,3 +21,5 @@ function getInput(){
       return false;
     }
   }
+
+  //calculating function
