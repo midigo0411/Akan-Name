@@ -23,3 +23,16 @@ function getInput(){
   }
 
   //calculating function
+
+  function calculateDay(){
+    getInput();
+    dayOfWeek = ((((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + dayOfMonth) % 7);
+    console.log(dayOfWeek); //Test the calculateDay function
+    return (Math.floor(dayOfWeek));
+    if (dayOfWeek < 0) {
+      dayOfWeek = dayOfWeek * -1; //takes care for those entering -ve value
+    }
+    else if (dayOfWeek > 0) {
+      return dayOfWeek;
+    }
+}
